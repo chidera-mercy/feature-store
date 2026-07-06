@@ -1,4 +1,4 @@
-# Feature Store for ML
+# Feature Store
 
 > This is an active, ongoing learning project. Progress and design decisions will be documented as the project develops.
 
@@ -11,7 +11,7 @@ A backend API sits on top of this, serving features on request with caching and 
 - **Language:** Python
 - **Orchestration:** Dagster
 - **Raw data source:** A Python-based generator simulating e-commerce events, stored in Postgres
-- **Feature computation:** Pandas / Polars
+- **Feature computation:** dbt
 - **Offline store:** Parquet files, queried with DuckDB 
 - **Online store:** Redis
 - **API layer:** FastAPI 
