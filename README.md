@@ -1,6 +1,6 @@
 # Feature Store for ML
 
->> This is an active, ongoing learning project. Progress and design decisions will be documented as the project develops.
+> This is an active, ongoing learning project. Progress and design decisions will be documented as the project develops.
 
 This project is a mini feature store — a system that computes reusable pieces of data, called "features" (things like "number of purchases a user made in the last 7 days" or "average order value"), and makes them available in two different ways. 
 A batch pipeline ingests simulated e-commerce data and computes these features on a schedule, storing the results in an offline store for historical lookups and analysis. At the same time, those features are pushed to an online store (Redis) so they can be retrieved instantly. 
